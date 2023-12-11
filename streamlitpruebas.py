@@ -12,7 +12,6 @@ fig, ax=plt.subplots()
 ax.scatter(data['A'],data['B'])
 st.pyplot(fig)
 bar=st.progress(0)
-time.sleep(2)
 bar.progress(100)
 
 
@@ -32,4 +31,3 @@ else:
     #st.sidebar.success()  
 
 st.selectbox("Selecciona una letra", ["A","B","C"])
-
