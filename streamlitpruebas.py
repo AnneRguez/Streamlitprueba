@@ -5,3 +5,7 @@ import matplotlib.pyplot as plt
 
 
 st.header("App Anne")
+
+boton=st.button("click aqui")
+if boton:
+    st.balloons()
